@@ -1,0 +1,90 @@
+/* Colors and fonts */
+
+body{
+	background-color: #EEF0F2;
+    color: #30362F;
+    font-family: helvetica;
+    font-size: 16px;}
+
+h1, h2 {
+font-family: courier ;
+}
+
+h1{
+	color: #9E0031;
+    font-size: 32px;
+    font-weight: bold;}
+
+h2{
+    color: #FABC2A;
+    font-size: 24px;
+    font-weight: lighter;
+    text-decoration: underline;
+}
+
+a{
+    text-decoration: none;
+    color: #CB8589;
+}
+
+a:hover {
+	color: pink;
+}
+
+
+/* Custom design with class */
+
+.container{
+	width:700px;
+	margin:40px auto;
+}
+
+.card-white{
+	background: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1)
+	border-radius:5px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle{
+	border-radius: 50%
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+
+
+
+
+
+{}
