@@ -1,19 +1,20 @@
 /* Colors and fonts */
 
 body{
-	background-color: #EEF0F2;
+    background-color: #EEF0F2;
     color: #30362F;
-    font-family: helvetica;
+    font-family: Avenir;
     font-size: 16px;}
 
 h1, h2 {
-font-family: courier ;
+font-family: avenir ;
 }
 
 h1{
-	color: #9E0031;
+    color: #9E0031;
     font-size: 32px;
-    font-weight: bold;}
+    font-weight: bold;
+}
 
 h2{
     color: #FABC2A;
@@ -42,14 +43,14 @@ a:hover {
 .card-white{
 	background: white;
 	padding: 40px;
-	box-shadow: 0px 10px 30px rgba(0,0,0,0.1)
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
 	border-radius:5px;
 	margin: 20px 0px;
 	text-align: center;
 }
 
 .img-circle{
-	border-radius: 50%
+	border-radius: 50%;
 }
 
 .list-inline{
@@ -79,12 +80,8 @@ a:hover {
   .container {
     width: 300px;
   }
+  .img-size{
+    width: 200px;
+  }
 }
 
-
-
-
-
-
-
-{}
