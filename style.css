@@ -3,11 +3,11 @@
 body{
     background-color: #EEF0F2;
     color: #30362F;
-    font-family: Avenir;
+    font-family: Avenir,sans-serif;
     font-size: 16px;}
 
 h1, h2 {
-    font-family: avenir ;
+    font-family: Avenir, sans-serif;
 }
 
 h1{
